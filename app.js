@@ -3,6 +3,7 @@ const express = require('express');
 const logger = require('morgan');
 const cors = require('cors');
 
+const budgetController = require('./Controller/budgetController');
 
 //CONFIGURATION
 
@@ -19,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 
-
+app.use('/transactions', budgetController);
 
 
 app.get('*', (req, res) => {

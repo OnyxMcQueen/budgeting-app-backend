@@ -1,6 +1,6 @@
 module.exports = [
     {
-        id: 0,
+        id: 1,
         item_name: "Income",
         amount: 2500,
         date: "August 23",
@@ -8,7 +8,7 @@ module.exports = [
         category: "Income"
     },
     {
-        id: 1,
+        id: 2,
         item_name: "Taxes",
         amount: -375,
         date: "August 30",
@@ -16,7 +16,7 @@ module.exports = [
         category: "Taxes"
     },
     {
-        id: 2,
+        id: 3,
         item_name: "Savings",
         amount: -250,
         date: "September 4",
@@ -24,7 +24,7 @@ module.exports = [
         category: "Savings"
     },
     {
-        id: 3,
+        id: 4,
         item_name: "Gift",
         amount: 150,
         date: "September 12",
@@ -32,7 +32,7 @@ module.exports = [
         category: "Gift"
     },
     {
-        id: 4,
+        id: 5,
         item_name: "Electric Bill",
         amount: 100,
         date: "September 18",
@@ -40,7 +40,7 @@ module.exports = [
         category: "Bills"
     },
     {
-        id: 5,
+        id: 6,
         item_name: "Pet Food",
         amount: -10,
         date: "September 19",
@@ -48,7 +48,7 @@ module.exports = [
         category: "Pets"
     },
     {
-        id: 6,
+        id: 7,
         item_name: "Coffee",
         amount: -5,
         date: "September 20",
